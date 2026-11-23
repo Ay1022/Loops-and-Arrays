@@ -7,6 +7,11 @@
 
 function getNames(users) {
   // your code
+  let newName=[];
+  for(const n of users){
+    newName.push(n.name)
+  }
+  return newName;
 }
 
 const users = [

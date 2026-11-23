@@ -6,6 +6,15 @@
 
 function getAdultNames(users) {
   // your code
+  let newName = [];
+  for(const n of users){
+    if (n.age >= 18){
+      newName.push(n.name)
+
+    }
+  }
+  return newName
+
 }
 
 const users = [

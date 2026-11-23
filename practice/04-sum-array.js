@@ -6,6 +6,11 @@
 
 function sumArray(numbers) {
   // your code
+  let sum =0;
+  for (const n of numbers){
+    sum += n;
+  }
+  return sum;
 }
 
 // Expected output:

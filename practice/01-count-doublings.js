@@ -4,9 +4,14 @@
 // - Use a while loop.
 // - countDoublings(1, 8): 1, 2, 4, 8 gives 3 doublings.
 // - If start is already limit or more, the answer is 0.
-
 function countDoublings(start, limit) {
   // your code
+  const arr=[]
+  while(start < limit){
+    start *= 2;
+    arr.push(start)
+  }
+   return arr.length;
 }
 
 // Expected output:

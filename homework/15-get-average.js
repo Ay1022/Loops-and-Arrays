@@ -6,6 +6,13 @@
 
 function getAverage(numbers) {
   // your code
+  let avg=0;
+  let sum=0;
+  for(const number of numbers){
+    sum += number;
+    avg = sum/ numbers.length;
+  }
+  return avg;
 }
 
 // Expected output:

@@ -7,6 +7,16 @@
 
 function getPriceOf(products, name) {
   // your code
+
+  let number=0;
+
+  for(const product of products){
+    if(product.name === name){
+      return product.price;
+      
+    }
+  } return null
+
 }
 
 const products = [

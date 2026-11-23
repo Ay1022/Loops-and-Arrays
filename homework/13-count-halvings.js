@@ -7,6 +7,17 @@
 
 function countHalvings(start) {
   // your code
+  let count =0;
+  while ( start > 1){
+    start = start / 2
+    count++;
+
+
+  }
+  return count;
+  
+
+
 }
 
 // Expected output:

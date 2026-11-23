@@ -6,6 +6,13 @@
 
 function getMin(numbers) {
   // your code
+  let smallest = numbers[0];
+  for(const number of numbers){
+    if (number < smallest){
+      smallest = number
+    }
+  }
+  return smallest;
 }
 
 // Expected output:

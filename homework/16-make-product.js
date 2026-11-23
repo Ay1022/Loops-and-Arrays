@@ -6,6 +6,19 @@
 
 function makeProduct(name, price, qty) {
   // your code
+  let total = price * qty
+  const array = {
+    name: name,
+    price:price,
+    qty:qty,
+    total:total
+
+  }
+  return array;
+  
+
+
+  
 }
 
 // Expected output:

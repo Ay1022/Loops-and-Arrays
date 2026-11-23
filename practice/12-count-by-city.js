@@ -4,8 +4,19 @@
 // - Return an object like { Muscat: 2, Salalah: 1 }.
 // - If the city is not in the object yet, set it to 1. Otherwise add 1.
 
+
 function countByCity(users) {
   // your code
+  let arr ={}
+  for (const user of users){
+    const cites = user.city;
+    if (arr[cites] === undefined){
+      arr[cites] = 1;
+    }else{
+      arr[cites]++;
+    }
+  }return arr;
+  
 }
 
 const users = [

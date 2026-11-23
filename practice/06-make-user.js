@@ -6,6 +6,10 @@
 
 function makeUser(name, age) {
   // your code
+  const user ={name,age,
+    isAdult: age >= 18
+  }
+  return user
 }
 
 // Expected output:
